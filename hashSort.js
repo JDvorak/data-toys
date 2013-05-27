@@ -7,8 +7,6 @@ var arrayHashSort = function(list, range) {
       hashArray = [],
       results = [];
 
-      var matrixWidth = 1;
-
   for (x = 0; x < count; x++) {
     value = list[x];
     place = (value % matrixWidth) + (matrixWidth *  ~~(value / matrixWidth));
