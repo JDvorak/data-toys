@@ -1,3 +1,5 @@
+//Linear time sorting algorithm
+
 var arrayHashSort = function(list, range) {
   var matrixWidth = Math.ceil(Math.sqrt(range)),
       value = 0,
